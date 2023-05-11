@@ -1,2 +1,179 @@
 body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+:root {
+  --background-color: #ffffff;
+  --title-color: #2e2f42;
+  --text-color: #434455;
+  --footer-text: #f4f4fd;
+}
+
+/*------------- Header------------- */
+.header {
+  color: var(--background-color);
+}
+
+.header-navigation {
+}
+
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-list {
+}
+
+.header-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.header-address {
+}
+
+.header-address-list {
+}
+
+.header-address-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*------------- Main 1 section------------- */
+
+.hero {
+  background-color: var(--title-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+}
+
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+}
+
+/*------------- Main 2 section------------- */
+
+.skills {
+}
+
+.skills-list {
+}
+
+.skills-list-item {
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*------------- Main 3 section------------- */
+.images {
+}
+
+.images-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+.images-list {
+}
+
+.images-item {
+}
+
+/*------------- Main 4 section------------- */
+.team {
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.team-list {
+}
+.team-list-item {
+}
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*------------- Footer------------- */
+.footer {
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text);
 }
