@@ -1,7 +1,8 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 :root {
@@ -63,6 +64,7 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -103,10 +105,12 @@ body {
   letter-spacing: 0.04em;
   color: var(--background-color);
   cursor: pointer;
+  background-color: var(--logo-color);
 }
 
 .hero-btn:hover {
   color: var(--logo-color);
+  background-color: var(--hover-color);
 }
 
 /*------------- Main 2 section------------- */
@@ -156,7 +160,6 @@ body {
 
 /*------------- Main 4 section------------- */
 .team {
-  background-color: var(--footer-text);
 }
 .team-title {
   font-size: 36px;
