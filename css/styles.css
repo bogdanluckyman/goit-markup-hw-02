@@ -9,18 +9,29 @@ body {
   --title-color: #2e2f42;
   --text-color: #434455;
   --footer-text: #f4f4fd;
+  --logo-color: #4d5ae5;
+  --color-header: #e7e9fc;
+  --hover-color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /*------------- Header------------- */
 .header {
-  color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 .header-navigation {
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -29,6 +40,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.logo-word {
+  color: var(--title-color);
 }
 
 .header-list {
@@ -42,6 +58,10 @@ body {
   color: var(--title-color);
 }
 
+.header-list-item:is(:hover, :focus) {
+  color: var(--hover-color);
+}
+
 .header-address {
 }
 
@@ -53,6 +73,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+
+.header-address-item:is(:hover, :focus) {
+  color: var(--hover-color);
 }
 
 /*------------- Main 1 section------------- */
@@ -70,6 +94,7 @@ body {
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -77,6 +102,11 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--background-color);
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  color: var(--logo-color);
 }
 
 /*------------- Main 2 section------------- */
@@ -126,6 +156,7 @@ body {
 
 /*------------- Main 4 section------------- */
 .team {
+  background-color: var(--footer-text);
 }
 .team-title {
   font-size: 36px;
@@ -157,18 +188,11 @@ body {
 
 /*------------- Footer------------- */
 .footer {
+  background-color: var(--title-color);
 }
 
-.footer-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.logo-footer-word {
+  color: var(--footer-text);
 }
 
 .footer-text {
@@ -176,4 +200,48 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text);
+}
+
+/*------------- Portfolio------------- */
+
+.project {
+  background-color: var(--background-color);
+}
+
+.project-list {
+}
+
+.list-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--logo-color);
+}
+
+.list-btn:is(:focus, :hover) {
+  color: var(--background-color);
+}
+
+.project-second-list {
+}
+
+.second-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.second-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
