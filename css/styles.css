@@ -108,7 +108,7 @@ body {
   background-color: var(--logo-color);
 }
 
-.hero-btn:hover {
+.hero-btn:is(:hover, :focus) {
   color: var(--logo-color);
   background-color: var(--hover-color);
 }
@@ -160,6 +160,7 @@ body {
 
 /*------------- Main 4 section------------- */
 .team {
+  background-color: var(--footer-text);
 }
 .team-title {
   font-size: 36px;
@@ -170,6 +171,7 @@ body {
   color: var(--title-color);
 }
 .team-list {
+  background-color: var(--background-color);
 }
 .team-list-item {
 }
@@ -225,10 +227,12 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--logo-color);
+  background-color: var(--footer-text);
 }
 
 .list-btn:is(:focus, :hover) {
   color: var(--background-color);
+  background-color: var(--hover-color);
 }
 
 .project-second-list {
